@@ -3,7 +3,12 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
 import MainContent from './MainContent';
+<<<<<<< HEAD
 // test
+=======
+
+// test 
+>>>>>>> dev
 describe('MainContent', () => {
   it('should render a button', () => {
     render(<MainContent />);
